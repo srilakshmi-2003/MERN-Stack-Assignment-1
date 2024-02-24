@@ -1,0 +1,222 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-bar {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+/* Home Section Styles */
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.home .content {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.home h3 {
+font-family: 'cursive';
+text-align:center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home p {
+text-align:center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.home .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.home .btn:hover {
+    background-color: #ff6347;
+}
+
+.home .image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Speciality Section Styles */
+.dresses {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.dresses .heading span {
+    color: #ff7f50;
+}
+
+.tops {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.tops .heading span {
+    color: #ff7f50;
+}
+
+.tops p {
+text-align:center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.dresses p {
+text-align:center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.bottoms p {
+text-align:center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.accessories p {
+text-align:center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.bottoms {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.bottoms .heading span {
+    color: #ff7f50;
+}
+
+.accessories {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.accessories .heading span {
+    color: #ff7f50;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box .image {
+    overflow: hidden;
+}
+
+
+
+.box .content {
+    padding: 20px;
+}
+
+.box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 10px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.box img {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+
+
+
+.credit h1{
+text-align:center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 70px; /* Adjust as needed based on the height of your header */
+}
